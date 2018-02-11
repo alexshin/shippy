@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package go.micro.srv.consignment;
+
+
+
+message Container {
+    string id =1;
+    string customer_id = 2;
+    string origin = 3;
+
+}
